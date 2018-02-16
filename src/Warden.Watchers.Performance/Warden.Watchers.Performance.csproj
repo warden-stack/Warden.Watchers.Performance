@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Warden Performance Watcher.</Description>
+    <VersionPrefix>2.0.0-beta-1</VersionPrefix>
+    <Authors>Piotr Gankiewicz</Authors>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyName>Warden.Watchers.Performance</AssemblyName>
+    <Title>Warden.Watchers.Performance</Title>
+    <PackageId>Warden.Watchers.Performance</PackageId>
+    <PackageTags>Warden Warden.Watchers.Performance</PackageTags>
+    <PackageProjectUrl>https://getwarden.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/warden-stack/Warden.Watchers.Performance/blob/master/LICENSE</PackageLicenseUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Warden" Version="2.0.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="4.5.0-preview1-25914-04" />
+  </ItemGroup>
+</Project>
